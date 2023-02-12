@@ -2,7 +2,7 @@ const noop = () => {};
 
 export const request = ({
   method = "GET",
-  url = "https://api.npoint.io/3f762a68ac9529488098/",
+  url = "https://api.npoint.io/3f762a68ac9529488098",
   path,
   type = "json",
   onSuccess = noop,
