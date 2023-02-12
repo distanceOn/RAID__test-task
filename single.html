@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List of links</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <main class="main">
+      <h1 class="main__h1">List of links</h1>
+      <h2 class="main__h2">This is page for</h2>
+    </main>
+    <script>
+      window.onload = () => {
+        const link = window.location.href.split("=")[1];
+        const info = document.querySelector(".main__h2");
+        info.textContent = info.textContent + " " + link;
+      };
+    </script>
+  </body>
+</html>
