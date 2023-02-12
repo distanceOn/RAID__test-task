@@ -1,0 +1,28 @@
+{
+  "name": "raid__test-task",
+  "version": "1.0.0",
+  "description": "This repository is solution of test task for RAID project from SkyPro",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/distanceOn/RAID__test-task.git"
+  },
+  "keywords": [
+    "skypro",
+    "RAID",
+    "test",
+    "request",
+    "list",
+    "links"
+  ],
+  "author": "distanceOn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/distanceOn/RAID__test-task/issues"
+  },
+  "homepage": "https://github.com/distanceOn/RAID__test-task#readme"
+}
